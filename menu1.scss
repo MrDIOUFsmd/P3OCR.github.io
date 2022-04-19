@@ -1,18 +1,19 @@
-body{
-    width: 100%;
-    margin-left: 0px;
+body {
     margin-right: 0px;
+    margin-left: 0px;
 }
 body a{
     color: black;
     text-decoration: none;
 }
 header{
-    margin-left: -8px;
-    margin-right: -8px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
 }
 .logo{
     display: flex block;
+    width: 100%;    
 }
 .textelogo{
     width: 10%;
@@ -26,7 +27,7 @@ header{
 .imagelogo{
     margin-left: 5%;
     margin-top: 20px;
-    width: 90%;
+    width: 80%;
 }
 .imagelogo img{
     margin-left: 16%;
@@ -40,8 +41,9 @@ header{
 
 main{
     display: block;
-    margin-left: -8px;
-    margin-right: -8px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
 }
 .photomain {
     margin-top: 20px;
@@ -57,8 +59,6 @@ main{
     padding-top: 30px;
     background: whitesmoke;
 }
-
-
 .titre{
     display: flex;
     justify-content: space-between;
@@ -230,7 +230,7 @@ main{
     text-overflow: ellipsis;
 }
 .texte1{
-    font-size: 20px;
+    font-size: 17px;
     font-weight: bold;
     max-width: 300px;
 }
@@ -238,8 +238,9 @@ main{
     width: 200px;
 }
 .texte2{
-    font-size: 16px;
+    font-size: 13px;
     max-width: 400px;
+    margin-top: 30px;
 }
 .box:hover .texte2{
     width: 200px;
@@ -277,8 +278,8 @@ main{
 
 
 footer{
-    margin-left: -8px;
-    margin-right: -8px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .basdepage {
     background: grey;
@@ -315,4 +316,53 @@ footer{
 .nav4footer {
     padding-left: 5%;
     font-size: 20px;
+}
+
+
+
+
+
+
+@media all and (max-width: 768px){
+    .texte p{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .box1:hover .transitionmenu{
+        width: 2000px;
+    }
+    .box1:hover .texte1{
+        width: 150px;
+    }
+    .box1:hover .texte2{
+        width: 150px;
+    }
+    .box1:hover .prix{
+        margin-left: -20px;
+    }
+    .box2:hover .transitionmenu{
+        width: 2000px;
+    }
+    .box2:hover .texte1{
+        width: 150px;
+    }
+    .box2:hover .texte2{
+        width: 150px;
+    }
+    .box2:hover .prix{
+        margin-left: -20px;
+    }
+    .box3:hover .transitionmenu{
+        width: 2000px;
+    }
+    .box3:hover .texte1{
+        width: 150px;
+    }
+    .box3:hover .texte2{
+        width: 150px;
+    }
+    .box3:hover .prix{
+        margin-left: -20px;
+    }
 }
