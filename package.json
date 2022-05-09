@@ -1,0 +1,22 @@
+{
+  "name": "p3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./styles.scss:./style.css ./menu1.scss:./menu1.css ./menu2.scss:./menu2.css ./menu3.scss:./menu3.css ./menu4.scss:./menu4.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrDIOUFsmd/P3OCR2022.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrDIOUFsmd/P3OCR2022/issues"
+  },
+  "homepage": "https://github.com/MrDIOUFsmd/P3OCR2022#readme",
+  "dependencies": {
+    "sass": "^1.51.0"
+  },
+  "description": ""
+}
