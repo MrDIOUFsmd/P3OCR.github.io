@@ -20,7 +20,7 @@ body a {
 }
 html{
   animation-name: pageloader;
-  animation-duration: 4s;
+  animation: body 4s;
 }
 @keyframes pageloader {
   0% {
