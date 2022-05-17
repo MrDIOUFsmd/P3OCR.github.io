@@ -15,7 +15,7 @@ body a {
 
 header {
   animation-name: pageloader;
-  animation: header 3s;
+  animation: header main footer 3s;
 }
 @keyframes header main footer {
   0% {
