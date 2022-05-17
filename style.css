@@ -18,11 +18,17 @@ body a {
   justify-content: space-around;
   width: 100%;
 }
-html{
-  animation-name: pageloader;
+body{
+  animation-name: body;
   animation: body 4s;
 }
-
+@keyframes body{
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .loader{
   margin:auto;
