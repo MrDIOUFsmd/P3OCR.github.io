@@ -13,7 +13,7 @@ body a {
   text-decoration: none;
 }
 
-hearder {
+header {
   animation: header 3s;
 }
 @keyframes header {
