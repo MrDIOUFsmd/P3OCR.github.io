@@ -14,7 +14,6 @@ body a {
 }
 
 header {
-  animation-name: pageloader;
   animation: header 3s;
 }
 @keyframes header {
