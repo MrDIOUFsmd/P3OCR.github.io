@@ -18,9 +18,9 @@ body a {
   justify-content: space-around;
   width: 100%;
 }
-body{
+header{
   animation-name: body;
-  animation: pageloader 4s;
+  animation: pageloader 3s;
 }
 @keyframes header{
   0% {
