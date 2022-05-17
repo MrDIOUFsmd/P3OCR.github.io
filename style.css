@@ -13,10 +13,10 @@ body a {
   text-decoration: none;
 }
 
-.main {
-  animation: main 3s;
+hearder {
+  animation: header 3s;
 }
-@keyframes main {
+@keyframes header {
   0% {
     opacity: 0;
   }
