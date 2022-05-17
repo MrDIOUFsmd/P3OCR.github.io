@@ -14,9 +14,23 @@ body a {
 }
 
 header {
-  animation: header 3s;
+  animation: header 2s;
 }
 @keyframes header {
+  0% {
+    opacity: 0;
+  }
+  95% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+main {
+  animation: main 2s;
+}
+@keyframes main {
   0% {
     opacity: 0;
   }
