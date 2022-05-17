@@ -27,10 +27,10 @@ header {
     opacity: 1;
   }
 }
-.restaurants {
-  animation: restaurants 3s;
+.fonctionnement {
+  animation: Lfonctionnement 3s;
 }
-@keyframes restaurants {
+@keyframes fonctionnement {
   0% {
     opacity: 0;
   }
