@@ -27,10 +27,10 @@ header {
     opacity: 1;
   }
 }
-.fonctionnement {
-  animation: Lfonctionnement 3s;
+main {
+  animation: Lmain 3s;
 }
-@keyframes Lfonctionnement {
+@keyframes Lmain {
   0% {
     opacity: 0;
   }
