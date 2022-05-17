@@ -42,9 +42,9 @@ header {
   }
 }
 footer {
-  animation: Lfooter 3s;
+  animation: footer 3s;
 }
-@keyframes Lfooter {
+@keyframes footer {
   0% {
     opacity: 0;
   }
