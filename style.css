@@ -26,6 +26,9 @@ body{
   0% {
     opacity: 0;
   }
+  90% {
+    opacity: 0;
+  }
   100% {
     opacity: 1;
   }
@@ -42,7 +45,13 @@ body{
   border-radius: 50%;
   animation: chargeur 4s linear infinite;
 }
-
+@keyframes loader{
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 @keyframes chargeur {
   0%{
     transform: rotate(0deg) scale(1);
