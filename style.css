@@ -30,7 +30,7 @@ header {
 .fonctionnement {
   animation: Lfonctionnement 3s;
 }
-@keyframes fonctionnement {
+@keyframes Lfonctionnement {
   0% {
     opacity: 0;
   }
