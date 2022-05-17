@@ -41,10 +41,10 @@ header {
     opacity: 1;
   }
 }
-.restaurants {
-  animation: Lrestaurants 3s;
+.restaurant {
+  animation: Lrestaurant 3s;
 }
-@keyframes Lrestaurants {
+@keyframes Lrestaurant {
   0% {
     opacity: 0;
   }
