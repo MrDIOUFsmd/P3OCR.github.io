@@ -22,13 +22,7 @@ html{
   animation-name: pageloader;
   animation: body 4s;
 }
-@keyframes pageloader {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+
 }
 .loader{
   margin:auto;
@@ -40,32 +34,32 @@ html{
   border-top-color: #1abc9c;
   border-bottom-color: #3498db;
   border-radius: 50%;
-  animation: chargeur 4s linear infinite;
+  animation: chargeur 4s ;
 }
 
 @keyframes chargeur {
   0%{
     transform: rotate(0deg) scale(1);
-    border-top-color: red;
-    border-bottom-color: red;
+    border-top-color: black;
+    border-bottom-color: black;
   }
   25%{
-    border-top-color: blue;
-    border-bottom-color: blue;
+    border-top-color: black;
+    border-bottom-color: black;
   }
   50% {
      transform: rotate(360deg) scale(1.15);
-    border-top-color: red;
-    border-bottom-color: red;
+    border-top-color: black;
+    border-bottom-color: black;
   }
   75%{
-    border-top-color: green;
-    border-bottom-color: green;
+    border-top-color: black;
+    border-bottom-color: black;
   }
   100%{
      transform: rotate(720deg) scale(1);
-    border-top-color: red;
-    border-bottom-color: red;
+    border-top-color: black;
+    border-bottom-color: black;
   }
   
 }
