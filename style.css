@@ -14,7 +14,7 @@ body a {
 }
 
 header {
-  animation: header 2s;
+  animation: header 3s;
 }
 @keyframes header {
   0% {
@@ -28,9 +28,9 @@ header {
   }
 }
 .fonctionnement {
-  animation: fonctionnement 2s;
+  animation: Lfonctionnement 3s;
 }
-@keyframes fonctionnement {
+@keyframes Lfonctionnement {
   0% {
     opacity: 0;
   }
