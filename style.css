@@ -35,7 +35,6 @@ html{
   border-bottom-color: #3498db;
   border-radius: 50%;
   animation: chargeur 4s linear infinite;
-  animation-duration: 3s;
 }
 
 @keyframes chargeur {
@@ -58,9 +57,7 @@ html{
     border-bottom-color: black;
   }
   100%{
-     transform: rotate(720deg) scale(1);
-    border-top-color: black;
-    border-bottom-color: black;
+     opacity: 0;
   }
   
 }
