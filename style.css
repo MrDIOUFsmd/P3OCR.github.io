@@ -20,9 +20,9 @@ body a {
 }
 body{
   animation-name: body;
-  animation: body 4s;
+  animation: pageloader 4s;
 }
-@keyframes body{
+@keyframes header{
   0% {
     opacity: 0;
   }
