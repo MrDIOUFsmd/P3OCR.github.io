@@ -34,7 +34,8 @@ html{
   border-top-color: #1abc9c;
   border-bottom-color: #3498db;
   border-radius: 50%;
-  animation: chargeur 4s ;
+  animation: chargeur 4s linear infinite;
+  animation-duration: 3s;
 }
 
 @keyframes chargeur {
