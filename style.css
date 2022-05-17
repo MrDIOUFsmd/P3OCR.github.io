@@ -41,6 +41,20 @@ header {
     opacity: 1;
   }
 }
+.section2 {
+  animation: Lsection2 3s;
+}
+@keyframes Lsection2 {
+  0% {
+    opacity: 0;
+  }
+  95% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 footer {
   animation: footer 3s;
 }
