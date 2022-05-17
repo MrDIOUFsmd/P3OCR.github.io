@@ -17,7 +17,7 @@ header {
   animation-name: pageloader;
   animation: header 3s;
 }
-@keyframes header main {
+@keyframes header main footer {
   0% {
     opacity: 0;
   }
