@@ -18,40 +18,7 @@ body a {
   justify-content: space-around;
   width: 100%;
 }
-header{
-  animation-name: body;
-  animation: pageloader 3s;
-}
-@keyframes header{
-  0% {
-    opacity: 0;
-  }
-  90% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-.loader{
-  margin:auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  border: 16px solid #bdc3c7;
-  width: 120px;
-  height: 120px;
-  border-top-color: #1abc9c;
-  border-bottom-color: #3498db;
-  border-radius: 50%;
-  animation: chargeur 4s linear infinite;
-}
-@keyframes loader{
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
+
 
 
 .logoimage {
