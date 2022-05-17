@@ -30,7 +30,7 @@ header {
 .restaurants {
   animation: restaurants 3s;
 }
-@keyframes restaurant {
+@keyframes restaurants {
   0% {
     opacity: 0;
   }
