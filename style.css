@@ -27,10 +27,10 @@ header {
     opacity: 1;
   }
 }
-main {
-  animation: Lmain 3s;
+.main {
+  animation: main 3s;
 }
-@keyframes Lmain {
+@keyframes main {
   0% {
     opacity: 0;
   }
