@@ -14,7 +14,7 @@ body a {
 }
 
 .loader {
-  margin-left: 50%;
+  margin-left: 100%;
 }
 .loader p {
   animation: Bloader 2s;
