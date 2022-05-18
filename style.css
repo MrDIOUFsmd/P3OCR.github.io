@@ -25,14 +25,7 @@ body a {
   animation: chargeur 3s ;
   animation-fill-mode: forwards;
 }
-@keyframes loader {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
+
 @keyframes chargeur {
   0%{
     transform: rotate(0deg) scale(1);
