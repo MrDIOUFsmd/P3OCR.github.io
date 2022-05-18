@@ -14,7 +14,7 @@ body a {
 }
 .loader{
   margin:auto;
-  position: relative;
+  position: relative ;
   left: 500px;
   top: -500px;
   border: 16px solid #bdc3c7;
