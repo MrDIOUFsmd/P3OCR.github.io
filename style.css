@@ -26,6 +26,9 @@ body a {
     opacity: 0;
     color: white;
   }
+  200% {
+    opacity: 0;
+  }
 }
 
 
