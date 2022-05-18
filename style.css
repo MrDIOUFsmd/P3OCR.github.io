@@ -24,24 +24,28 @@ body a {
   border-radius: 50%;
   animation: chargeur 3s linear infinite;
 }
+@keyframes loader {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 @keyframes chargeur {
   0%{
     transform: rotate(0deg) scale(1);
     border-top-color: black;
-    border-bottom-color: black;
   }
   25%{
     border-top-color: black;
-    border-bottom-color: black;
   }
   50% {
      transform: rotate(360deg) scale(1.15);
     border-top-color: black;
-    border-bottom-color: black;
   }
   75%{
     border-top-color: black;
-    border-bottom-color: black;
   }
   100%{
      opacity: 0;
