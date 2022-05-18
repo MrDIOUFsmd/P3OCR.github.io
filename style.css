@@ -13,15 +13,11 @@ body a {
   text-decoration: none;
 }
 
-.loader p{
-  font-size: 30px;
-  animation: Aloader 2s;
-}
+
 .loader {
-  margin: auto;
-  animation: Bloader;
+  animation: Bloader 3s;
 }
-@keyframes Aloader{
+@keyframes Bloader{
   0% {
     opacity: 0;
   }
