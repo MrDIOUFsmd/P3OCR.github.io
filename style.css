@@ -41,7 +41,7 @@ header {
     opacity: 1;
   }
 }
-restaurants {
+#restaurants {
   animation: Lrestaurants 3s;
 }
 @keyframes Lrestaurants {
