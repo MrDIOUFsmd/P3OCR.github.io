@@ -14,11 +14,11 @@ body a {
 }
 .loader p{
   font-size: 50px;
-  margin-left: 50%;  
+  margin-left: 50%;
+  animation: loader 2s;
 }
 .loader {
   display: flex;
-  animation: loader 2s;
 }
 @keyframes loader{
   0% {
@@ -28,17 +28,7 @@ body a {
     opacity: 0;
   }
 }
-.loader1 {
-  animation: loader1 1s;
-}
-@keyframes loader1 {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
+
 
 header {
   animation: header 2s;
