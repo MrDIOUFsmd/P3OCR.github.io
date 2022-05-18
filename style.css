@@ -15,6 +15,8 @@ body a {
 .loader{
   margin:auto;
   border: 16px solid #bdc3c7;
+  margin-top: 100px;
+  margin-bottom: 100px;
   width: 120px;
   height: 120px;
   border-top-color: #000000;
