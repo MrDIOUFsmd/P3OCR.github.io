@@ -23,7 +23,7 @@ body a {
   border-bottom-color: #3498db;
   border-radius: 50%;
   animation: chargeur 3s linear ;
-  animation-duration: 3s;
+  animation-delay: 3s;
 }
 @keyframes loader {
   0% {
