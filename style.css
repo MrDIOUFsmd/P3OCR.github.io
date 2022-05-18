@@ -22,9 +22,8 @@ body a {
   border-top-color: #1abc9c;
   border-bottom-color: #3498db;
   border-radius: 50%;
-  animation-fill-mode: forwards;
   animation: chargeur 4s ;
-  
+  animation-fill-mode: forwards;  
 }
 
 }
