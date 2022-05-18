@@ -18,15 +18,11 @@ body a {
   animation: Bloader 2s;
   font-size: 30px;
 }
-@keyframes Bloader{
+@keyframes Bloader {
   0% {
     opacity: 1;
   }
   100% {
-    opacity: 0;
-    color: red;
-  }
-  200% {
     opacity: 0;
   }
 }
