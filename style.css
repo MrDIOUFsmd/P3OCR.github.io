@@ -22,7 +22,7 @@ body a {
   margin: auto;
   animation: Bloader;
 }
-@keyframes Aloader Bloader{
+@keyframes Bloader{
   0% {
     opacity: 0;
   }
