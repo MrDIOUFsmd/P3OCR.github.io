@@ -14,12 +14,13 @@ body a {
 }
 .loader {
   display: flex;
+  animation: Lloader 3s;
 }
 
 .loader p{
   font-size: 30px;
   margin: auto;
-  animation: Lloader 3s;
+  
 }
 @keyframes Lloader{
   0% {
