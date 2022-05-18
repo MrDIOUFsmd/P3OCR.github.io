@@ -20,8 +20,9 @@ body a {
 .loader {
   display: none;
   margin: auto;
+  animation: Bloader;
 }
-@keyframes Aloader{
+@keyframes Aloader Bloader{
   0% {
     opacity: 0;
   }
