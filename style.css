@@ -46,7 +46,7 @@ body a {
     border-bottom-color: black;
   }
   100%{
-     opacity: 0;
+     opacity: 1;
   }
   
 }
