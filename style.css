@@ -43,10 +43,10 @@ body a {
   }
   50% {
      transform: rotate(360deg) scale(1.15);
-    border-top-color: black;
+    border-top-color: blue;
   }
   75%{
-    border-top-color: black;
+    border-top-color: blue;
   }
   100%{
      opacity: 0;
