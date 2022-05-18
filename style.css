@@ -25,11 +25,11 @@ body a {
   animation: chargeur 4s ;
   animation-fill-mode: forwards;
 }
-.loader {
+.loader{
   0% {
     opacity: 1;
   }
-  100% {
+  100%{
     opacity: 0;
   }
 }
