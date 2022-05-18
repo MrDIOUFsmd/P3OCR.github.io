@@ -22,7 +22,7 @@ body a {
   border-top-color: #1abc9c;
   border-bottom-color: #3498db;
   border-radius: 50%;
-  animation: chargeur 2s linear ;
+  animation: chargeur 3s linear ;
   animation-fill-mode: forwards;
 }
 @keyframes loader {
@@ -62,7 +62,7 @@ body a {
 
 
 header {
-  animation: header 2s;
+  animation: header 3s;
 }
 @keyframes header {
   0% {
@@ -76,7 +76,7 @@ header {
   }
 }
 .fonctionnement {
-  animation: Lfonctionnement 2s;
+  animation: Lfonctionnement 3s;
 }
 @keyframes Lfonctionnement {
   0% {
@@ -90,7 +90,7 @@ header {
   }
 }
 .section2 {
-  animation: Lsection2 2s;
+  animation: Lsection2 3s;
 }
 @keyframes Lsection2 {
   0% {
@@ -104,7 +104,7 @@ header {
   }
 }
 .resto {
-  animation: Lresto 2s;
+  animation: Lresto 3s;
 }
 @keyframes Lresto {
   0% {
@@ -118,7 +118,7 @@ header {
   }
 }
 footer {
-  animation: footer 2s;
+  animation: footer 3s;
 }
 @keyframes footer {
   0% {
