@@ -44,7 +44,7 @@ body a {
     border-bottom-color: black;
   }
   50% {
-     transform: rotate(360deg) scale(1.15);
+    transform: rotate(360deg) scale(1);
     border-top-color: black;
     border-bottom-color: black;
   }
