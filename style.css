@@ -14,7 +14,7 @@ body a {
 }
 
 
-.loader {
+.loader p{
   animation: Bloader 3s;
   font-size: 30px;
 }
