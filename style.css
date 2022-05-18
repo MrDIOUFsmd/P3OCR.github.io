@@ -12,7 +12,9 @@ body a {
   color: black;
   text-decoration: none;
 }
-
+.loader {
+  animation: Aloader 2s;
+}
 @keyframes chargeur {
   0%{
     transform: rotate(0deg) scale(1);
