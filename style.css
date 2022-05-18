@@ -18,13 +18,10 @@ body a {
 }
 .loader {
   display: flex;
-  animation: Lloader 2s;
+  animation: loader 2s;
 }
-@keyframes Lloader{
+@keyframes loader{
   0% {
-    opacity: 1;
-  }
-  95% {
     opacity: 1;
   }
   100% {
@@ -32,13 +29,10 @@ body a {
   }
 }
 .loader1 {
-  animation: 1loader1 1s;
+  animation: loader1 1s;
 }
-@keyframes 1loader1 {
+@keyframes loader1 {
   0% {
-    opacity: 1;
-  }
-  95% {
     opacity: 1;
   }
   100% {
