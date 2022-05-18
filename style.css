@@ -12,13 +12,14 @@ body a {
   color: black;
   text-decoration: none;
 }
+
 .loader p{
   font-size: 30px;
-  margin: auto;
+  margin-left: 20%;
   animation: Aloader 2s;
 }
 .loader {
-  display: flex;
+  display: none;
 }
 @keyframes Aloader{
   0% {
