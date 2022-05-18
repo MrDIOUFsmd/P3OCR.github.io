@@ -32,9 +32,9 @@ body a {
   }
 }
 .loader1 {
-  animation: Lloader1 3s;
+  animation: loader1 3s;
 }
-@keyframes Lloader1 {
+@keyframes loader1 {
   0% {
     opacity: 1;
   }
