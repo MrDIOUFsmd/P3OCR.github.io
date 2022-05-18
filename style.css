@@ -32,9 +32,9 @@ body a {
   }
 }
 .loader1 {
-  animation: loader1 1s;
+  animation: 1loader1 1s;
 }
-@keyframes loader1 {
+@keyframes 1loader1 {
   0% {
     opacity: 1;
   }
@@ -47,7 +47,7 @@ body a {
 }
 
 header {
-  animation: header 3s;
+  animation: header 2s;
 }
 @keyframes header {
   0% {
@@ -61,7 +61,7 @@ header {
   }
 }
 .fonctionnement {
-  animation: Lfonctionnement 3s;
+  animation: Lfonctionnement 2s;
 }
 @keyframes Lfonctionnement {
   0% {
@@ -75,7 +75,7 @@ header {
   }
 }
 .section2 {
-  animation: Lsection2 3s;
+  animation: Lsection2 2s;
 }
 @keyframes Lsection2 {
   0% {
@@ -89,7 +89,7 @@ header {
   }
 }
 .resto {
-  animation: Lresto 3s;
+  animation: Lresto 2s;
 }
 @keyframes Lresto {
   0% {
@@ -103,7 +103,7 @@ header {
   }
 }
 footer {
-  animation: footer 3s;
+  animation: footer 2s;
 }
 @keyframes footer {
   0% {
