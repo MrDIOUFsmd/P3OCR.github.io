@@ -25,6 +25,14 @@ body a {
   animation: chargeur 4s linear;
   animation-fill-mode: forwards;  
 }
+@keyframes loader {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 
 @keyframes chargeur {
   0%{
