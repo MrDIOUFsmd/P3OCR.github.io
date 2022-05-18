@@ -12,17 +12,29 @@ body a {
   color: black;
   text-decoration: none;
 }
+.loader p{
+  font-size: 50px;
+  margin-left: 50%;  
+}
 .loader {
   display: flex;
   animation: Lloader 3s;
 }
-
-.loader p{
-  font-size: 30px;
-  margin: auto;
-  
-}
 @keyframes Lloader{
+  0% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.loader1 {
+  animation: Lloader1 3s;
+}
+@keyframes Lloader1 {
   0% {
     opacity: 1;
   }
