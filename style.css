@@ -16,13 +16,15 @@ body a {
 
 .loader {
   animation: Bloader 3s;
+  font-size: 30px;
 }
 @keyframes Bloader{
   0% {
-    opacity: 0;
+    opacity: 1;
   }
   100% {
-    opacity: 0,1;
+    opacity: 0;
+    color: white;
   }
 }
 
