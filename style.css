@@ -20,8 +20,8 @@ body a {
   border: 16px solid #bdc3c7;
   width: 120px;
   height: 120px;
-  border-top-color: black;
-  border-bottom-color: black;
+  border-top-color: #000000;
+  border-bottom-color: #000000;
   border-radius: 50%;
   animation: chargeur 2s linear ;
   animation-fill-mode: forwards;
