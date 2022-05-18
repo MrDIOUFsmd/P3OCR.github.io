@@ -18,7 +18,6 @@ body a {
   animation: Aloader 2s;
 }
 .loader {
-  display: none;
   margin: auto;
   animation: Bloader;
 }
