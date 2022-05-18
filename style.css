@@ -14,11 +14,21 @@ body a {
 }
 
 .loader {
-  display: none;
-}
-.loader:hover {
   display: flex;
+  animation: Lloader 3s;
 }
+@keyframes Lloader{
+  0% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 .loader p{
   font-size: 30px;
   margin: auto;
