@@ -15,11 +15,11 @@ body a {
 
 .loader p{
   font-size: 30px;
-  margin-left: 20%;
   animation: Aloader 2s;
 }
 .loader {
   display: none;
+  margin: auto;
 }
 @keyframes Aloader{
   0% {
