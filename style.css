@@ -13,7 +13,12 @@ body a {
   text-decoration: none;
 }
 
-
+.loader {
+  display: none;
+}
+.loader:hover {
+  display: flex;
+}
 .loader p{
   font-size: 30px;
   margin: auto;
