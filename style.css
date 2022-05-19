@@ -404,9 +404,9 @@ footer {
   font-size: 20px;
 }
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 768px; max-width: 1280px) {
   .fonctionnement {
-    diplay: initial;
+    diplay: block;
   }
   .restaurants {
     display: initial;
