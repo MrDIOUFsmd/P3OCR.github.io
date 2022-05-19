@@ -406,10 +406,10 @@ footer {
 
 @media all and (min-width: 768px) {
   .fonctionnement {
-    diplay: inline;
+    diplay: initial;
   }
   .restaurants {
-    display: inline;
+    display: initial;
   }
 }
 
