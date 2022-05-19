@@ -404,4 +404,10 @@ footer {
   font-size: 20px;
 }
 
+@media all and (min-width: 768px) {
+  .fonctionnement {
+    diplay: flex;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
