@@ -408,6 +408,9 @@ footer {
   .fonctionnement {
     diplay: flex;
   }
+  .restaurants {
+    display:flex;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
