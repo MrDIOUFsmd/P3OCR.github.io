@@ -21,7 +21,7 @@ header {
     border-top-color: blue;
     border-bottom-color: blue;
     border-radius: 50%;
-    animation: loader 3s;
+    animation: loader 2500ms;
     animation-fill-mode: forwards;  
   }
   @keyframes loader {
@@ -29,28 +29,28 @@ header {
       opacity: 1;
     }
     100% {
-      opacity: 1;
+      opacity: 0;
     }
   }
   
   @keyframes loader {
     0%{
       transform: rotate(0deg) scale(1);
-      border-top-color: black;
-      border-bottom-color: black;
+      border-top-color: blue;
+      border-bottom-color: blue;
     }
     25%{
-      border-top-color: black;
-      border-bottom-color: black;
+      border-top-color: blue;
+      border-bottom-color: blue;
     }
     50% {
       transform: rotate(1000deg) scale(1);
-      border-top-color: black;
-      border-bottom-color: black;
+      border-top-color: blue;
+      border-bottom-color: blue;
     }
     75%{
-      border-top-color: black;
-      border-bottom-color: black;
+      border-top-color: blue;
+      border-bottom-color: blue;
     }
     99%{
       opacity: 1;
