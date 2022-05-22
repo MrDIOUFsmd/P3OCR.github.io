@@ -18,8 +18,8 @@ header {
     border: 16px solid #bdc3c7;
     width: 80px;
     height: 80px;
-    border-top-color: black;
-    border-bottom-color: black;
+    border-top-color: blue;
+    border-bottom-color: blue;
     border-radius: 50%;
     animation: loader 3s;
     animation-fill-mode: forwards;  
