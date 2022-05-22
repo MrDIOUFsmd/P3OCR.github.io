@@ -1,416 +1,456 @@
 header {
-  margin-left: -1px;
-}
-
-body {
-  margin-left: -1px;
-  margin-right: -1px;
-  width: 100%;
-}
-
-body a {
-  color: black;
-  text-decoration: none;
-}
-.loader{
-  margin:auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  border: 16px solid #bdc3c7;
-  width: 120px;
-  height: 120px;
-  border-top-color: #1abc9c;
-  border-bottom-color: #3498db;
-  border-radius: 50%;
-  animation: chargeur 4s linear;
-  animation-fill-mode: none;  
-}
-@keyframes loader {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes chargeur {
-  0%{
-    transform: rotate(0deg) scale(1);
-    border-top-color: black;
-    border-bottom-color: black;
-  }
-  25%{
-    border-top-color: black;
-    border-bottom-color: black;
-  }
-  50% {
-    transform: rotate(180deg) scale(1);
-    border-top-color: black;
-    border-bottom-color: black;
-  }
-  75%{
-    border-top-color: black;
-    border-bottom-color: black;
-  }
-  100%{
-     opacity: 1;
+    margin-left: -1px;
   }
   
-}
-
-
-
-
-header {
-  animation: header 3s;
-}
-@keyframes header {
-  0% {
-    opacity: 0;
+  body {
+    margin-left: -1px;
+    margin-right: -1px;
+    width: 100%;
   }
-  95% {
-    opacity: 0;
+  
+  body a {
+    color: black;
+    text-decoration: none;
   }
-  100% {
-    opacity: 1;
+  .loader{
+    margin:auto;
+    position: relative;
+    border: 16px solid #bdc3c7;
+    width: 80px;
+    height: 80px;
+    border-top-color: black;
+    border-bottom-color: black;
+    border-radius: 50%;
+    animation: loader 3s;
+    animation-fill-mode: forwards;  
   }
-}
-.fonctionnement {
-  animation: Lfonctionnement 3s;
-}
-@keyframes Lfonctionnement {
-  0% {
-    opacity: 0;
+  @keyframes loader {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
   }
-  95% {
-    opacity: 0;
+  
+  @keyframes loader {
+    0%{
+      transform: rotate(0deg) scale(1);
+      border-top-color: black;
+      border-bottom-color: black;
+    }
+    25%{
+      border-top-color: black;
+      border-bottom-color: black;
+    }
+    50% {
+      transform: rotate(1000deg) scale(1);
+      border-top-color: black;
+      border-bottom-color: black;
+    }
+    75%{
+      border-top-color: black;
+      border-bottom-color: black;
+    }
+    99%{
+      opacity: 1;
+    }
+    100%{
+       opacity: 0;
+    }
+    
   }
-  100% {
-    opacity: 1;
+  
+  
+  
+  
+  header {
+    animation: header 3s;
   }
-}
-.section2 {
-  animation: Lsection2 3s;
-}
-@keyframes Lsection2 {
-  0% {
-    opacity: 0;
+  @keyframes header {
+    0% {
+      opacity: 0;
+    }
+    95% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
-  95% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-.resto {
-  animation: Lresto 3s;
-}
-@keyframes Lresto {
-  0% {
-    opacity: 0;
-  }
-  95% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-footer {
-  animation: footer 3s;
-}
-@keyframes footer {
-  0% {
-    opacity: 0;
-  }
-  95% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.logo {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-}
-
-.logoimage {
-  width: 200px;
-  padding-top: 20px;
-}
-
-.souslogo1 {
-  display: block;
-  background: lightgray;
-  height: 70px;
-  width: 100%;
-}
-
-.textesouslogo1 {
-  display: flex;
-  font-size: 20px;
-  width: 150px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.textesouslogo1 i {
-  margin-top: 20px;
-  font-size: 25px;
-  margin-right: 10px;
-}
-
-.textesouslogo1 p {
-  font-size: 18px;
-  margin-top: 25px;
-}
-
-.souslogo2 {
-  background: whitesmoke;
-  margin-top: -30px;
-  width: 100%;
-  height: 350px;
-}
-
-.souslogo2a {
-  font-size: 30px;
-  font-weight: bold;
-  width: 100%;
-  flex-direction: column;
-}
-
-.souslogo2a p {
-  width: 280px;
-  padding-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-.souslogo2b {
-  font-size: 22px;
-  width: 350px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-.souslogo2c {
-  text-align: center;
-}
-
-.souslogo2c input {
-  width: 250px;
-  height: 50px;
-  margin-top: 30px;
-  border-radius: 15px;
-  font-size: 20px;
-  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
-  color: white;
-}
-
-.souslogo2c input:hover {
-  cursor: pointer;
-  transform: scale(1.25);
-}
-
-.fonctionnement {
-  width: 100%;
-  height: 500px;
-  display: block;
-}
-
-.titre1F {
-  font-size: 25px;
-  font-weight: bold;
-  padding-left: 30px;
-  padding-top: 30px;
-}
-
-.fonctionnement a {
-  display: flex;
-  justify-content: space-around;
-  width: 400px;
-  height: 75px;
-  background: whitesmoke;
-  box-shadow: 10px 10px 10px #F2F2F2;
-  border-radius: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-}
-
-.textenav {
-  width: 220px;
-}
-
-.icone1 {
-  background: #9356DC;
-  width: 25px;
-  height: 25px;
-  border-radius: 50px;
-  margin-left: -32px;
-  margin-top: 25px;
-}
-
-.icone1 p {
-  color: white;
-  font-weight: bold;
-  margin-top: 2px;
-  margin-left: 8px;
-}
-
-.icone2 {
-  font-size: 25px;
-  margin-top: 25px;
-  margin-left: -10px;
-  color: grey;
-}
-
-.textenav {
-  font-size: 20px;
-  font-weight: bold;
-  padding-top: 10px;
-  padding-right: 60px;
-}
-
-.section2 {
-  display: block;
-  background: whitesmoke;
-  height: 2300px;
-}
-
-.titre1R {
-  font-size: 25px;
-  font-weight: bold;
-  padding-left: 30px;
-  padding-top: 30px;
-}
-
-.resto {
-  width: 90%;
-  background: white;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 100px;
-  border-radius: 30px;
-}
-
-.resto img {
-  width: 100%;
-  height: 300px;
-  border-radius: 30px 30px 0px 0px;
-}
-
-.nouveau {
-  width: 100px;
-  min-width: 10%;
-  height: 30px;
-  background: #99E2D0;
-  text-align: center;
-  margin-left: 74%;
-  position: relative;
-  top: -300px;
-  border-radius: 5px;
-}
-
-.nouveau p {
-  font-size: 22px;
-  padding-top: 4px;
-}
-
-.sousphotoresto {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 3%;
-}
-
-.sousphotoresto p {
-  font-size: 25px;
-}
-
-.texte1 {
-  font-weight: bold;
-}
-
-.iconeresto1 {
-  padding-right: 50px;
-  padding-top: 40px;
-  font-size: 40px;
-}
-
-.iconeresto1:hover i {
-  display: none;
-}
-
-.iconeresto1:hover {
-  cursor: pointer;
-  animation: iconeresto1 3s infinite;
-  background: linear-gradient(to bottom, #ff79da, #e86edb, #cf64dc, #b35cdc, #9356dc);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
-}
-
-.basdepage {
-  background: grey;
-}
-
-.logofooter {
-  padding-left: 5%;
-  padding-top: 40px;
-  font-size: 25px;
-  color: white;
-}
-
-.basdepage nav {
-  display: flex;
-  font-size: 25px;
-  color: white;
-}
-
-.basdepage nav p {
-  color: white;
-  cursor: pointer;
-}
-
-.nav1footer i {
-  padding-top: 25px;
-  padding-right: 3%;
-  padding-left: 5%;
-  font-size: 20px;
-}
-
-.nav2footer i {
-  padding-top: 25px;
-  padding-right: 1%;
-  padding-left: 5%;
-  font-size: 20px;
-}
-
-.nav3footer {
-  padding-left: 5%;
-  font-size: 20px;
-}
-
-.nav4footer {
-  padding-left: 5%;
-  font-size: 20px;
-}
-
-@media all and screen (min-width: 768px) {
   .fonctionnement {
-    diplay: block;
+    animation: Lfonctionnement 3s;
   }
-  .restaurants {
-    display: initial;
+  @keyframes Lfonctionnement {
+    0% {
+      opacity: 0;
+    }
+    95% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+  .section2 {
+    animation: Lsection2 3s;
+  }
+  @keyframes Lsection2 {
+    0% {
+      opacity: 0;
+    }
+    95% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .resto {
+    animation: Lresto 3s;
+  }
+  @keyframes Lresto {
+    0% {
+      opacity: 0;
+    }
+    95% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  footer {
+    animation: footer 3s;
+  }
+  @keyframes footer {
+    0% {
+      opacity: 0;
+    }
+    95% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .logoimage {
+    width: 200px;
+    padding-top: 20px;
+  }
+  
+  .souslogo1 {
+    display: block;
+    background: lightgray;
+    height: 70px;
+    width: 100%;
+  }
+  
+  .textesouslogo1 {
+    display: flex;
+    font-size: 20px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .textesouslogo1 i {
+    margin-top: 20px;
+    font-size: 25px;
+    margin-right: 10px;
+  }
+  
+  .textesouslogo1 p {
+    font-size: 18px;
+    margin-top: 25px;
+  }
+  
+  .souslogo2 {
+    background: whitesmoke;
+    margin-top: -30px;
+    width: 100%;
+    height: 350px;
+  }
+  
+  .souslogo2a {
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .souslogo2a p {
+    width: 280px;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  .souslogo2b {
+    font-size: 22px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  .souslogo2c {
+    text-align: center;
+  }
+  
+  .souslogo2c input {
+    width: 250px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 15px;
+    font-size: 20px;
+    background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+    color: white;
+  }
+  
+  .souslogo2c input:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+  }
+  
+  .fonctionnement {
+    width: 100%;
+    height: 500px;
+    display: block;
+  }
+  
+  .titre1F {
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+  
+  .fonctionnement a {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    height: 75px;
+    background: whitesmoke;
+    box-shadow: 10px 10px 10px #F2F2F2;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+  
+  .textenav {
+    width: 220px;
+  }
+  
+  .icone1 {
+    background: #9356DC;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    margin-left: -32px;
+    margin-top: 25px;
+  }
+  
+  .icone1 p {
+    color: white;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-left: 8px;
+  }
+  
+  .icone2 {
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: -10px;
+    color: grey;
+  }
+  
+  .textenav {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-right: 60px;
+  }
+  
+  .section2 {
+    display: block;
+    background: whitesmoke;
+    height: 2300px;
+  }
+  
+  .titre1R {
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+  
+  .resto {
+    width: 90%;
+    background: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 100px;
+    border-radius: 30px;
+  }
+  
+  .resto img {
+    width: 100%;
+    height: 300px;
+    border-radius: 30px 30px 0px 0px;
+  }
+  
+  .nouveau {
+    width: 100px;
+    min-width: 10%;
+    height: 30px;
+    background: #99E2D0;
+    text-align: center;
+    margin-left: 74%;
+    position: relative;
+    top: -300px;
+    border-radius: 5px;
+  }
+  
+  .nouveau p {
+    font-size: 22px;
+    padding-top: 4px;
+  }
+  
+  .sousphotoresto {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3%;
+  }
+  
+  .sousphotoresto p {
+    font-size: 25px;
+  }
+  
+  .texte1 {
+    font-weight: bold;
+  }
+  
+  .iconeresto1 {
+    padding-right: 50px;
+    padding-top: 40px;
+    font-size: 40px;
+  }
+  
+  .iconeresto1:hover i {
+    display: none;
+  }
+  
+  .iconeresto1:hover {
+    cursor: pointer;
+    animation: iconeresto1 3s infinite;
+    background: linear-gradient(to bottom, #ff79da, #e86edb, #cf64dc, #b35cdc, #9356dc);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
+  
+  .basdepage {
+    background: grey;
+  }
+  
+  .logofooter {
+    padding-left: 5%;
+    padding-top: 40px;
+    font-size: 25px;
+    color: white;
+  }
+  
+  .basdepage nav {
+    display: flex;
+    font-size: 25px;
+    color: white;
+  }
+  
+  .basdepage nav p {
+    color: white;
+    cursor: pointer;
+  }
+  
+  .nav1footer i {
+    padding-top: 25px;
+    padding-right: 3%;
+    padding-left: 5%;
+    font-size: 20px;
+  }
+  
+  .nav2footer i {
+    padding-top: 25px;
+    padding-right: 1%;
+    padding-left: 5%;
+    font-size: 20px;
+  }
+  
+  .nav3footer {
+    padding-left: 5%;
+    font-size: 20px;
+  }
+  
+  .nav4footer {
+    padding-left: 5%;
+    font-size: 20px;
+  }
+  
+  @media all and (min-width: 768px) {
+    .fonctionnement {
+        height: 300px;
+    }
+    .navF a {
+        width: 220px;
+    }
+    .icone1 {
+        margin-left: 35px;
+        width: 30px;
+    }
+    .icone1 p {
+        padding-right: 5px;
+    }
+    .icone2 {
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+    .textenav {
+        margin-top: -15px;
+        margin-right: -50px;
+        margin-left: 10px;
+        min-width: 180px;
+    }
+    .navF {
+        display: flex;
+    }
+    #restaurants {
+      display: flex;
+      justify-content: space-between;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .resto {
+        width: 300px;
+        height: 500px;
+    }
+    .section2 {
+      min-height: 800px;
+      max-height: 1300px;
+    }
+    .nouveau {
+      position: relative;
+      left: -40px;
+    }
+  }
+  
+  /*# sourceMappingURL=style.css.map */
