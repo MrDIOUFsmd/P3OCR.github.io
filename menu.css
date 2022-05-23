@@ -264,6 +264,7 @@ main {
     transform: rotate(360deg)
   }
 }
+
 .texte {
   margin-left: 5%;
 }
@@ -275,23 +276,33 @@ main {
 }
 
 .texte1 {
-  font-size: 17px;
   font-weight: bold;
-  max-width: 300px;
+  max-width: 330px;
+  min-width: 300px;
+}
+.texte1 p{
+  font-size: 21px;
 }
 
 .box:hover .texte1 {
-  width: 200px;
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .texte2 {
-  font-size: 13px;
   max-width: 400px;
-  margin-top: 30px;
+}
+.texte2 p{
+  font-size: 20px;
 }
 
 .box:hover .texte2 {
   width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .prix {
