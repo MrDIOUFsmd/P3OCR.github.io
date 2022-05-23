@@ -412,6 +412,7 @@ header {
     }
     .navF a {
         width: 220px;
+        display: flex;
     }
     .icone1 {
         margin-left: 35px;
