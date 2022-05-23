@@ -65,7 +65,7 @@ header {
   
   
   header {
-    animation: header 3s;
+    animation: header 2600ms;
   }
   @keyframes header {
     0% {
@@ -79,7 +79,7 @@ header {
     }
   }
   .fonctionnement {
-    animation: Lfonctionnement 3s;
+    animation: Lfonctionnement 2600ms;
   }
   @keyframes Lfonctionnement {
     0% {
@@ -93,7 +93,7 @@ header {
     }
   }
   .section2 {
-    animation: Lsection2 3s;
+    animation: Lsection2 2600ms;
   }
   @keyframes Lsection2 {
     0% {
@@ -107,7 +107,7 @@ header {
     }
   }
   .resto {
-    animation: Lresto 3s;
+    animation: Lresto 2600ms;
   }
   @keyframes Lresto {
     0% {
@@ -121,7 +121,7 @@ header {
     }
   }
   footer {
-    animation: footer 3s;
+    animation: footer 2600ms;
   }
   @keyframes footer {
     0% {
