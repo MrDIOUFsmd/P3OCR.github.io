@@ -286,7 +286,7 @@ main {
 }
 
 .box:hover .texte1 {
-  max-width: 180px;
+  max-width: 200px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -300,7 +300,7 @@ main {
 }
 
 .box:hover .texte2 {
-  width: 180px;
+  width: 200px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
