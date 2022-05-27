@@ -422,16 +422,16 @@ header {
   
   @media all and (min-width: 1000px) {
     .fonctionnement {
-        height: 300px;
+        margin-bottom: -300px;
     }
     .navF a {
-        width: 220px;
+        width: 300px;
     }
     .navF {
       display: flex;
     }
     .icone1 {
-        margin-left: 35px;
+        margin-left: -10px;
         width: 30px;
     }
     .icone1 p {
@@ -442,7 +442,7 @@ header {
         padding-right: 10px;
     }
     .textenav {
-        margin-top: -15px;
+        margin-top: -25px;
         margin-right: -50px;
         margin-left: 10px;
         min-width: 180px;
@@ -454,7 +454,7 @@ header {
       flex-wrap: wrap;
     }
     .resto {
-        width: 300px;
+        width: 500px;
         height: 500px;
     }
     .section2 {
@@ -463,7 +463,22 @@ header {
     }
     .nouveau {
       position: relative;
+      width: 100px;
+      height: 30px;
       left: -40px;
+    }
+    .nouveau p{
+      font-size: 20px;
+    }
+    .texteR1 p{
+      font-size: 20px;
+    }
+    .texteR2 p{
+      font-size: 20px;
+    }
+    .iconeresto i{
+      font-size: 40px;
+      margin-top: -30px;
     }
   }
   
