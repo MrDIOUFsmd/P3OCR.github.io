@@ -1,6 +1,7 @@
 body {
-  margin-right: 0px;
+  width: 100%;
   margin-left: 0px;
+  margin-right: 0px;
 }
 
 body a {
@@ -9,14 +10,12 @@ body a {
 }
 
 header {
-  margin-left: 0px;
-  margin-right: 0px;
-  width: 100%;
+  margin-left: -8px;
+  margin-right: -8px;
 }
 
 .logo {
-  display: flex block;
-  width: 100%;
+  display: flex;
 }
 
 .textelogo {
@@ -25,29 +24,28 @@ header {
 }
 
 .textelogo i {
-  margin-top: 15px;
-  margin-left: 30px;
-  font-size: 30px;
+  padding-top: 30px;
+  margin-left: 80px;
+  font-size: 80px;
 }
 
 .imagelogo {
   margin-left: 5%;
-  margin-top: 20px;
-  width: 80%;
+  margin-top: 50px;
+  width: 90%;
 }
 
 .imagelogo img {
-  margin-left: 16%;
-  width: 50%;
+  margin-left: 13%;
+  width: 60%;
   min-width: 150px;
   height: 50px;
 }
 
 main {
   display: block;
-  margin-left: 0px;
-  margin-right: 0px;
-  width: 100%;
+  margin-left: -8px;
+  margin-right: -8px;
 }
 
 .photomain {
@@ -76,18 +74,18 @@ main {
 }
 
 .titre p {
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
-  width: 250px;
+  width: 400px;
 }
 
 .titre i {
-  font-size: 30px;
-  margin-top: 30px;
+  font-size: 50px;
+  margin-top: 60px;
 }
 
 .titretexte p {
-  font-size: 20px;
+  font-size: 50px;
   margin-left: 5%;
   border-bottom: 5px solid #99E2D0;
   width: 100px;
@@ -115,16 +113,6 @@ main {
 }
 
 .box3 {
-  display: flex;
-  justify-content: space-between;
-  width: 90%;
-  margin: auto;
-  background: white;
-  margin-bottom: 30px;
-  border-radius: 20px;
-}
-
-.box4 {
   display: flex;
   justify-content: space-between;
   width: 90%;
@@ -170,18 +158,6 @@ main {
     opacity: 1;
   }
 }
-.box4 {
-  animation: box4 3s;
-}
-
-@keyframes box4 {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 .transition {
   display: none;
   width: 25%;
@@ -216,10 +192,6 @@ main {
   display: block;
 }
 
-.box4:hover .transition {
-  display: block;
-}
-
 .box1:hover .texte2 {
   width: 300px;
 }
@@ -229,10 +201,6 @@ main {
 }
 
 .box3:hover .texte2 {
-  width: 300px;
-}
-
-.box4:hover .texte2 {
   width: 300px;
 }
 
@@ -265,49 +233,38 @@ main {
     transform: rotate(360deg)
   }
 }
-
 .texte {
   margin-left: 5%;
 }
-
-.texte p {
+.texte p{
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
 .texte1 {
-  font-weight: bold;
-  max-width: 330px;
-  min-width: 300px;
+  max-width: 600px;
 }
 .texte1 p{
-  font-size: 21px;
+  font-size: 40px;
 }
 
 .box:hover .texte1 {
-  max-width: 200px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  min-width: 400px;
 }
 
 .texte2 {
-  max-width: 400px;
+  max-width: 600px;
 }
 .texte2 p{
-  font-size: 20px;
+  font-size: 40px;
 }
 
 .box:hover .texte2 {
-  width: 200px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  min-width: 400px;
 }
 
 .prix {
-  font-size: 22px;
+  font-size: 40px;
   font-weight: bold;
   margin-top: 40px;
   min-width: 50px;
@@ -335,19 +292,17 @@ main {
 }
 
 footer {
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: -8px;
+  margin-right: -8px;
 }
-
 .basdepage {
   background: grey;
-  margin-top: -30px;
 }
 
 .logofooter {
   padding-left: 5%;
   padding-top: 40px;
-  font-size: 25px;
+  font-size: 50px;
   color: white;
 }
 
@@ -357,18 +312,24 @@ footer {
   color: white;
 }
 
+.basdepage nav p {
+  color: white;
+  cursor: pointer;
+  font-size: 50px;
+}
+
 .nav1footer i {
-  padding-top: 25px;
+  padding-top: 55px;
   padding-right: 3%;
   padding-left: 5%;
-  font-size: 20px;
+  font-size: 50px;
 }
 
 .nav2footer i {
-  padding-top: 25px;
-  padding-right: 1%;
+  padding-top: 55px;
+  padding-right: 3%;
   padding-left: 5%;
-  font-size: 20px;
+  font-size: 50px;
 }
 
 .nav3footer {
@@ -381,76 +342,4 @@ footer {
   font-size: 20px;
 }
 
-@media all and (max-width: 768px) {
-  .texte p {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-  .box1:hover .transitionmenu {
-    width: 2000px;
-  }
-
-  .box1:hover .texte1 {
-    width: 150px;
-  }
-
-  .box1:hover .texte2 {
-    width: 150px;
-  }
-
-  .box1:hover .prix {
-    margin-left: -20px;
-  }
-
-  .box2:hover .transitionmenu {
-    width: 2000px;
-  }
-
-  .box2:hover .texte1 {
-    width: 150px;
-  }
-
-  .box2:hover .texte2 {
-    width: 150px;
-  }
-
-  .box2:hover .prix {
-    margin-left: -20px;
-  }
-
-  .box3:hover .transitionmenu {
-    width: 2000px;
-  }
-
-  .box3:hover .texte1 {
-    width: 150px;
-  }
-
-  .box3:hover .texte2 {
-    width: 150px;
-  }
-
-  .box3:hover .prix {
-    margin-left: -20px;
-  }
-
-  .box4:hover .transitionmenu {
-    width: 2000px;
-  }
-
-  .box4:hover .texte1 {
-    width: 150px;
-  }
-
-  .box4:hover .texte2 {
-    width: 150px;
-  }
-
-  .box4:hover .prix {
-    margin-left: -20px;
-  }
-}
-
-/*# sourceMappingURL=menu2.css.map */
+/*# sourceMappingURL=menu4.css.map */
