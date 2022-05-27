@@ -375,4 +375,14 @@ footer {
   font-size: 20px;
 }
 
+@media all and (min-width: 1000px) {
+  .imagelogo img {
+     height: 100px;
+     margin-top: -30px;
+  }
+  .photomain img {
+    height: 700px;
+  }
+}
+
 /*# sourceMappingURL=menu4.css.map */
