@@ -15,6 +15,7 @@ header {
   .loader{
     margin:auto;
     position: relative;
+    top: 300px;
     border: 16px solid #bdc3c7;
     width: 80px;
     height: 80px;
@@ -179,20 +180,20 @@ header {
     background: whitesmoke;
     margin-top: -35px;
     width: 100%;
-    height: 450px;
+    height: 500px;
   }
   
+  
   .souslogo2a {
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bold;
-    width: 450px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
   }
   
   .souslogo2a p {
-    width: 280px;
+    width: 500px;
     padding-top: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -200,8 +201,8 @@ header {
   }
   
   .souslogo2b {
-    font-size: 30px;
-    width: 400px;
+    font-size:40px;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -235,7 +236,7 @@ header {
   }
   
   .titre1F {
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bold;
     padding-left: 30px;
     padding-top: 30px;
@@ -254,12 +255,12 @@ header {
     margin-bottom: 30px;
   }
   .textenav {
-    width: 270px;
+    width: 320px;
     margin-right: -50px;
   }
   .textenav p{
-    font-size: 25px;
-    margin-bottom: 20px;
+    font-size: 30px;
+    margin-top: 15px;
   }
   
   
@@ -268,7 +269,7 @@ header {
     width: 25px;
     height: 25px;
     border-radius: 50px;
-    margin-left: -32px;
+    margin-left: -20px;
     margin-top: 25px;
   }
   
@@ -280,9 +281,9 @@ header {
   }
   
   .icone2 {
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 25px;
-    margin-left: -10px;
+    margin-left: 0px;
     color: grey;
   }
   
@@ -300,7 +301,7 @@ header {
     height: 3400px;
   }
   .titre1R {
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bold;
     padding-left: 30px;
     padding-top: 30px;
@@ -328,9 +329,9 @@ header {
     height: 40px;
     background: #99E2D0;
     text-align: center;
-    margin-left: 74%;
+    margin-left: 75%;
     position: relative;
-    top: -400px;
+    top: -730px;
     border-radius: 5px;
   }
   
@@ -421,10 +422,6 @@ header {
   }
   
   @media all and (min-width: 1000px) {
-    .loader {
-        position: relative;
-        top: -500px;
-      }
     .fonctionnement {
         margin-bottom: -300px;
     }
@@ -469,7 +466,8 @@ header {
       position: relative;
       width: 100px;
       height: 30px;
-      left: -40px;
+      left: 0px;
+      top: -580px;
     }
     .nouveau p{
       font-size: 20px;
@@ -483,6 +481,10 @@ header {
     .iconeresto i{
       font-size: 40px;
       margin-top: -30px;
+    }
+    .loader {
+      position: relative;
+      top: -300px;
     }
   }
   
