@@ -80,6 +80,7 @@ header {
   }
   .fonctionnement {
     animation: Lfonctionnement 2600ms;
+    min-height: 500px;
   }
   @keyframes Lfonctionnement {
     0% {
@@ -139,6 +140,7 @@ header {
     display: flex;
     justify-content: space-around;
     width: 100%;
+    margin-top: 30px;
   }
   
   .logoimage {
@@ -151,39 +153,42 @@ header {
     background: lightgray;
     height: 70px;
     width: 100%;
+    margin-top: 30px;
   }
   
   .textesouslogo1 {
     display: flex;
-    font-size: 20px;
-    width: 150px;
+    font-size: 30px;
+    width: 270px;
     margin-left: auto;
     margin-right: auto;
   }
   
   .textesouslogo1 i {
-    margin-top: 20px;
-    font-size: 25px;
+    margin-top: 15px;
+    font-size: 35px;
     margin-right: 10px;
   }
   
   .textesouslogo1 p {
-    font-size: 18px;
-    margin-top: 25px;
+    font-size: 35px;
+    margin-top: 15px;
   }
   
   .souslogo2 {
     background: whitesmoke;
     margin-top: -30px;
     width: 100%;
-    height: 350px;
+    height: 450px;
   }
   
   .souslogo2a {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
-    width: 100%;
-    flex-direction: column;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
   }
   
   .souslogo2a p {
@@ -195,8 +200,8 @@ header {
   }
   
   .souslogo2b {
-    font-size: 22px;
-    width: 350px;
+    font-size: 30px;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -207,11 +212,11 @@ header {
   }
   
   .souslogo2c input {
-    width: 250px;
+    width: 300px;
     height: 50px;
     margin-top: 30px;
     border-radius: 15px;
-    font-size: 20px;
+    font-size: 25px;
     background: linear-gradient(to bottom right, #FF79DA, #9356DC);
     color: white;
   }
@@ -223,12 +228,14 @@ header {
   
   .fonctionnement {
     width: 100%;
-    min-height: 500px;
+    margin-bottom: -100px;
     display: block;
+    position: relative;
+    top: -130px;
   }
   
   .titre1F {
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold;
     padding-left: 30px;
     padding-top: 30px;
@@ -246,10 +253,15 @@ header {
     margin-right: auto;
     margin-bottom: 30px;
   }
-  
   .textenav {
-    width: 220px;
+    width: 270px;
+    margin-right: -50px;
   }
+  .textenav p{
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
   
   .icone1 {
     background: #9356DC;
@@ -281,14 +293,14 @@ header {
     padding-right: 60px;
   }
   
+
   .section2 {
     display: block;
     background: whitesmoke;
-    height: 2300px;
+    height: 2950px;
   }
-  
   .titre1R {
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold;
     padding-left: 30px;
     padding-top: 30px;
@@ -307,12 +319,13 @@ header {
     width: 100%;
     height: 300px;
     border-radius: 30px 30px 0px 0px;
+    object-fit: cover;
   }
   
   .nouveau {
-    width: 100px;
+    width: 150px;
     min-width: 10%;
-    height: 30px;
+    height: 40px;
     background: #99E2D0;
     text-align: center;
     margin-left: 74%;
@@ -322,7 +335,7 @@ header {
   }
   
   .nouveau p {
-    font-size: 22px;
+    font-size: 30px;
     padding-top: 4px;
   }
   
@@ -333,17 +346,13 @@ header {
   }
   
   .sousphotoresto p {
-    font-size: 25px;
-  }
-  
-  .texte1 {
-    font-weight: bold;
+    font-size: 50px;
   }
   
   .iconeresto1 {
     padding-right: 50px;
-    padding-top: 40px;
-    font-size: 40px;
+    padding-top: 60px;
+    font-size: 100px;
   }
   
   .iconeresto1:hover i {
@@ -359,6 +368,10 @@ header {
     -webkit-text-fill-color: transparent;
     font-weight: bold;
   }
+  .texteR1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
   
   .basdepage {
     background: grey;
@@ -367,7 +380,7 @@ header {
   .logofooter {
     padding-left: 5%;
     padding-top: 40px;
-    font-size: 25px;
+    font-size: 50px;
     color: white;
   }
   
@@ -380,20 +393,21 @@ header {
   .basdepage nav p {
     color: white;
     cursor: pointer;
+    font-size: 50px;
   }
   
   .nav1footer i {
-    padding-top: 25px;
+    padding-top: 55px;
     padding-right: 3%;
     padding-left: 5%;
-    font-size: 20px;
+    font-size: 50px;
   }
   
   .nav2footer i {
-    padding-top: 25px;
-    padding-right: 1%;
+    padding-top: 55px;
+    padding-right: 3%;
     padding-left: 5%;
-    font-size: 20px;
+    font-size: 50px;
   }
   
   .nav3footer {
@@ -406,13 +420,15 @@ header {
     font-size: 20px;
   }
   
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 1000px) {
     .fonctionnement {
         height: 300px;
     }
     .navF a {
         width: 220px;
-        display: flex;
+    }
+    .navF {
+      display: flex;
     }
     .icone1 {
         margin-left: 35px;
@@ -430,9 +446,6 @@ header {
         margin-right: -50px;
         margin-left: 10px;
         min-width: 180px;
-    }
-    .navF {
-        display: flex;
     }
     #restaurants {
       display: flex;
