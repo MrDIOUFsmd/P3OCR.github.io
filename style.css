@@ -421,6 +421,10 @@ header {
   }
   
   @media all and (min-width: 1000px) {
+    .loader {
+        position: relative;
+        top: -500px;
+      }
     .fonctionnement {
         margin-bottom: -300px;
     }
