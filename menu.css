@@ -63,7 +63,7 @@ main {
   top: -30px;
   padding-top: 30px;
   background: whitesmoke;
-  min-height: 600px;
+  min-height: 1200px;
 }
 
 .titre {
@@ -206,9 +206,9 @@ main {
 
 .iconetransition {
   color: #99E2D0;
-  width: 35px;
-  height: 35px;
-  margin-top: 35px;
+  width: 70px;
+  height: 70px;
+  margin-top: 60px;
   margin-left: 35%;
   border-radius: 50px;
   font-size: 25px;
@@ -219,12 +219,17 @@ main {
 }
 
 .iconetransition i {
-  padding-left: 5px;
-  padding-top: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 50px;
 }
 
 @keyframes iconeT {
   0% {
+    opacity: 0;
+    transform: rotate(0deg)
+  }
+  20% {
     opacity: 0;
     transform: rotate(0deg)
   }
@@ -277,11 +282,11 @@ main {
 }
 
 .btncommander input {
-  width: 250px;
-  height: 50px;
+  width: 400px;
+  height: 70px;
   margin-top: 30px;
   border-radius: 15px;
-  font-size: 20px;
+  font-size: 40px;
   background: linear-gradient(to bottom right, #FF79DA, #9356DC);
   color: white;
 }
@@ -294,6 +299,7 @@ main {
 footer {
   margin-left: -8px;
   margin-right: -8px;
+  margin-top: -30px;
 }
 .basdepage {
   background: grey;
@@ -301,7 +307,7 @@ footer {
 
 .logofooter {
   padding-left: 5%;
-  padding-top: 40px;
+  padding-top: 50px;
   font-size: 50px;
   color: white;
 }
