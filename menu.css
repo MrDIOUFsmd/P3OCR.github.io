@@ -144,7 +144,7 @@ main {
   }
 }
 .box2 {
-  animation: box1 2s;
+  animation: box2 2s;
 }
 
 @keyframes box2 {
@@ -156,7 +156,7 @@ main {
   }
 }
 .box3 {
-  animation: box1 3s;
+  animation: box3 3s;
 }
 
 @keyframes box3 {
@@ -168,7 +168,7 @@ main {
   }
 }
 .box4 {
-  animation: box1 3s;
+  animation: box4 3s;
 }
 
 @keyframes box4 {
