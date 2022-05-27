@@ -422,7 +422,7 @@ header {
   
   @media all and (min-width: 1000px) {
     .fonctionnement {
-        margin-bottom: px;
+        min-width: 300px;
     }
     .navF a {
         width: 300px;
