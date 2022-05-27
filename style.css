@@ -177,7 +177,7 @@ header {
   
   .souslogo2 {
     background: whitesmoke;
-    margin-top: -30px;
+    margin-top: -35px;
     width: 100%;
     height: 450px;
   }
@@ -422,7 +422,7 @@ header {
   
   @media all and (min-width: 1000px) {
     .fonctionnement {
-        min-width: 300px;
+        margin-bottom: -300px;
     }
     .navF a {
         width: 300px;
