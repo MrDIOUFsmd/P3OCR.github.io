@@ -121,6 +121,15 @@ main {
   margin-bottom: 30px;
   border-radius: 20px;
 }
+.box4 {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  background: white;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
 
 .box1 {
   animation: box1 1s;
@@ -151,6 +160,18 @@ main {
 }
 
 @keyframes box3 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.box4 {
+  animation: box1 3s;
+}
+
+@keyframes box4 {
   0% {
     opacity: 0;
   }
@@ -191,6 +212,9 @@ main {
 .box3:hover .transition {
   display: block;
 }
+.box4:hover .transition {
+  display: block;
+}
 
 .box1:hover .texte2 {
   width: 300px;
@@ -201,6 +225,9 @@ main {
 }
 
 .box3:hover .texte2 {
+  width: 300px;
+}
+.box4:hover .texte2 {
   width: 300px;
 }
 
